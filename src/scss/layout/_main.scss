@@ -1,0 +1,72 @@
+.box_blue {
+  display: grid;
+  width: 100%;
+  height: 624px;
+  background-color: #eff9ff;
+  grid-template-columns: 1fr;
+  grid-template-rows: 30px 30px 63px 30px 63px 30px 63px;
+  align-content: center;
+  text-align: center;
+}
+.reasons {
+  background-color: sienna;
+  width: 68px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  grid-column: 1 / 2;
+  grid-row: 1/2;
+}
+.box1 {
+  background-color: mediumseagreen;
+  grid-column: 1 / 2;
+  grid-row: 2/3;
+}
+.box2 {
+  background-color: rgb(104, 70, 9);
+  grid-column: 1 / 2;
+  grid-row: 3/4;
+}
+.box3 {
+  background-color: rebeccapurple;
+  grid-column: 1 / 2;
+  grid-row: 4/5;
+}
+.box4 {
+  background-color: orchid;
+  grid-column: 1 / 2;
+  grid-row: 5/6;
+}
+.box5 {
+  background-color: gold;
+  grid-column: 1 / 2;
+  grid-row: 6/7;
+}
+.box6 {
+  background-color: olive;
+  grid-column: 1 / 2;
+  grid-row: 7/8;
+}
+.box7 a {
+  background-color: pink;
+  grid-column: 1 / 2;
+  grid-row: 2/3;
+}
+
+.arrow {
+  background-color: red;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  grid-column: 1 / 2;
+  grid-row: 9/10;
+}
+.arrow a {
+  width: 20.6px;
+  height: 24px;
+  text-align: center;
+}
