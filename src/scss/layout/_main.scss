@@ -5,15 +5,12 @@
   background-color: #eff9ff;
   grid-template-columns: 1fr;
   grid-template-rows: 30px 30px 63px 30px 63px 30px 63px;
-  align-content: center;
+
   text-align: center;
+  place-items: center;
 }
 .reasons {
   background-color: sienna;
-  width: 68px;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-top: 30px;
   margin-bottom: 0;
   font-family: "Roboto", sans-serif;
   font-size: 24px;
@@ -25,38 +22,65 @@
   background-color: mediumseagreen;
   grid-column: 1 / 2;
   grid-row: 2/3;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
 }
 .box2 {
   background-color: rgb(104, 70, 9);
   grid-column: 1 / 2;
   grid-row: 3/4;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
 }
 .box3 {
   background-color: rebeccapurple;
   grid-column: 1 / 2;
   grid-row: 4/5;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
 }
 .box4 {
   background-color: orchid;
   grid-column: 1 / 2;
   grid-row: 5/6;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
 }
 .box5 {
   background-color: gold;
   grid-column: 1 / 2;
   grid-row: 6/7;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
 }
 .box6 {
   background-color: olive;
   grid-column: 1 / 2;
   grid-row: 7/8;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
 }
 .box7 a {
   background-color: pink;
   grid-column: 1 / 2;
   grid-row: 2/3;
 }
-
+.more {
+  background-color: #f26002;
+  width: 184px;
+  height: 45px;
+  text-decoration: none;
+  font-size: 20px;
+  text-content: center;
+  color: white;
+  border-radius: 22.5px;
+}
 .arrow {
   background-color: red;
   width: 45px;
