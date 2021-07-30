@@ -1,38 +1,57 @@
 .box_white {
   width: 100%;
   height: 376px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .small {
   font-size: 14px;
   color: #8ccbea;
   line-height: 30px;
+
+  margin-top: 30px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  font-family: "Roboto", sans-serif;
 }
 .look {
-  font-size: 26px;
+  font-size: 24px;
   color: black;
   margin-bottom: 30px;
-  line-height: 45px;
+  line-height: 30px;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  font-family: "Roboto Slab", serif;
 }
 .parraf {
-  font-size: 20px;
+  font-size: 18px;
   color: #4a4a4a;
   line-height: 30px;
+  grid-column: 1/2;
+  grid-row: 3/4;
+  font-family: "Roboto", sans-serif;
 }
 .go {
-  width: 91px;
+  width: 76px;
   height: 45px;
-
+  font-size: 20px;
   color: #f26002;
   background-color: white;
+  margin-bottom: 45px;
+  border: solid 2px;
+  border-radius: 22.5px;
+  grid-column: 1/2;
+  grid-row: 4/5;
+  font-family: "Roboto Mono", monospace;
 }
 .go a {
   text-decoration: none;
-  font-size: 20px;
+
   line-height: 45px;
   font-family: "Roboto", sans-serif;
-  text-orientation: center;
-  border: solid 2px #f26002;
-  border-radius: px;
 }
 .box_blue {
   display: grid;
