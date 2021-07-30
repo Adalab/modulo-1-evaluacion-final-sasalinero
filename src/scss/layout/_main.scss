@@ -1,5 +1,4 @@
 .box_white {
-  width: 100%;
   height: 376px;
   display: grid;
   grid-template-columns: auto;
@@ -8,6 +7,8 @@
   margin-right: 15px;
 }
 .small {
+  width: 100%;
+  height: 30px;
   font-size: 14px;
   color: #8ccbea;
   line-height: 30px;
@@ -18,6 +19,8 @@
   font-family: "Roboto", sans-serif;
 }
 .look {
+  width: 100%;
+  height: 60px;
   font-size: 24px;
   color: black;
   margin-bottom: 30px;
@@ -27,6 +30,8 @@
   font-family: "Roboto Slab", serif;
 }
 .parraf {
+  width: 100%;
+  height: 120px;
   font-size: 18px;
   color: #4a4a4a;
   line-height: 30px;
@@ -121,6 +126,65 @@
   text-align: center;
 }
 @media (min-width: 720px) {
+  .box_white {
+    width: 100%;
+    height: 330px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    margin-left: 39px;
+    margin-right: 39px;
+  }
+  .small {
+    background-color: khaki;
+    font-size: 14px;
+    color: #8ccbea;
+    line-height: 30px;
+    margin-top: 30px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-family: "Roboto", sans-serif;
+  }
+  .look {
+    background-color: lavender;
+    font-size: 26px;
+    color: black;
+    margin-bottom: 30px;
+    line-height: 45px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-family: "Roboto Slab", serif;
+  }
+  .parraf {
+    background-color: lightcoral;
+    font-size: 20px;
+    color: #4a4a4a;
+    line-height: 30px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    font-family: "Roboto", sans-serif;
+  }
+  .go {
+    width: 91px;
+    height: 45px;
+    font-size: 20px;
+    color: #f26002;
+    background-color: white;
+    margin-bottom: 60px;
+    border: solid 2px;
+    border-radius: 22.5px;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    font-family: "Roboto Mono", monospace;
+  }
+  .go a {
+    background-color: lightgreen;
+    text-decoration: none;
+
+    line-height: 45px;
+    font-family: "Roboto", sans-serif;
+  }
+
   .box_blue {
     display: grid;
     width: 100%;
@@ -136,7 +200,6 @@
     font-size: 24px;
   }
   .reasons {
-    background-color: rgb(98, 0, 255);
     margin-bottom: 0;
     font-family: "Roboto", sans-serif;
 
@@ -145,24 +208,18 @@
     grid-row: 1/2;
   }
   .box1 {
-    background-color: mediumseagreen;
-
     font-family: "Roboto", sans-serif;
     line-height: 30px;
     grid-column: 1 / 2;
     grid-row: 2/3;
   }
   .box2 {
-    background-color: yellowgreen;
-
     font-family: "Roboto", sans-serif;
     line-height: 30px;
     grid-column: 2/ 3;
     grid-row: 2/3;
   }
   .box3 {
-    background-color: rebeccapurple;
-
     font-family: "Roboto", sans-serif;
     line-height: 30px;
     grid-column: 3 / 4;
@@ -170,7 +227,6 @@
   }
 
   .more {
-    background-color: #f26002;
     width: 184px;
     font-family: "Roboto", sans-serif;
     text-decoration: none;
@@ -184,7 +240,6 @@
     grid-row: 3/4;
   }
   .arrow {
-    background-color: red;
     width: 45px;
     height: 45px;
     border-radius: 50%;
