@@ -1,6 +1,6 @@
 .footer1 {
   display: flex;
-  background-color: #304268;
+  background-color: $color-darkblue;
   width: 100%;
   font-family: "Roboto", sans-serif;
   flex-direction: column;
@@ -38,7 +38,6 @@ li a {
   line-height: 30px;
   font-size: 16px;
 }
-
 .copy {
   height: 30px;
   margin-top: 0px;
@@ -57,13 +56,13 @@ li a {
   font-size: 14px;
 }
 i {
-  color: #f26002;
+  color: $color-orange;
 }
 @media (min-width: 720px) {
   .footer1 {
     display: flex;
     flex-direction: row;
-    background-color: #304268;
+    background-color: $color-darkblue;
     width: 100%;
     height: 240px;
     font-family: "Roboto", sans-serif;
@@ -126,7 +125,7 @@ i {
   .footer1 {
     display: flex;
     flex-direction: row;
-    background-color: #304268;
+    background-color: $color-darkblue;
     width: 100%;
     height: 240px;
     font-family: "Roboto", sans-serif;
